@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header-img {
+  width: 100%;
+  height: 500px;
+  background-image: url('./imgs/computer.jpg');
+  object-fit: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('../src/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: black;
+}
